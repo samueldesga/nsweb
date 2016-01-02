@@ -1,0 +1,379 @@
+/***************************************
+                CAROUSEL
+***************************************/
+
+/* CAROUSEL */
+
+.divSizeImg {
+   width:200px;
+   border-left: #fff solid 15px;
+   border-right: #fff solid 15px;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+.width100 {
+    width: 100%;
+}
+
+
+#carousel nav {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+    #carousel nav a {
+        width: 12px;
+        height: 12px;
+        margin-left: 15px;
+        border: 1px solid #1b1b1b;
+        border-radius: 20px;
+        background-color: #bcc665;
+        transition: background-color .4s ease-out;
+        -webkit-transition: background-color .4s ease-out;
+        -moz-transition: background-color .4s ease-out;
+    }
+
+        #carousel nav a:hover {
+            background-color: #446918;
+        }
+
+        #carousel nav a.active {
+            background-color: #446918;
+        }
+
+#carousel .inner {
+    
+    width: 920px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#carousel ul {
+    width: 4560px;
+    height: 200px;
+    list-style: none;
+}
+
+    #carousel ul li {
+        position: relative;
+        float: left;
+    }
+
+        #carousel ul li div div {
+            position: absolute;
+            bottom: 30px;
+            width: 200px;
+            padding: 12px 0px 12px 0px;
+            font-size: 12px;
+            color: #fff;
+            line-height: 1em;
+            background-color: rgba(0,0,0,0.5);
+            transition: background-color .4s ease-out, color .4s ease-out;
+            -webkit-transition: background-color .4s ease-out, color .4s ease-out;
+            -moz-transition: background-color .4s ease-out, color .4s ease-out;
+        }
+
+        #carousel ul li div em {
+            color: #808080;
+        }
+
+
+
+
+
+
+
+
+
+/*Recherche Accueil*/
+
+#searchButton{
+    background: #204d74;
+    color: #fff;
+    border: #204d74;
+    border-radius: 3.5px;
+    margin: 1em auto;
+}
+
+#searchAccueil {
+    margin: 0 auto;
+    width: 100%;
+    border-spacing: 0 3em;
+}
+
+
+#searchAccueil tr{
+    
+    
+}
+
+#searchTypeTable{
+    margin: 0 auto;
+}
+
+
+
+.divSearch{
+    text-align: center;
+    border:5px solid #283744;
+    padding: 1.5em 0 1.5em 0;
+    background: #fff;
+    font-size: 10pt;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*Devenir membre*/
+
+.divBeMember{
+    text-align: center;
+    border:5px solid #283744;
+    padding: 1.5em 0 1.5em 0;
+    background: #fff;
+    font-size: 10pt;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#signUpButton{
+    background: #204d74;
+    color: #fff;
+    border: #204d74;
+    border-radius: 3.5px;
+    margin: 1em auto;
+}
+
+
+/*Coloc en vedette*/
+.divColocFeatured{
+    text-align: center;
+    border:5px solid #283744;
+    margin: 0 auto;
+    padding: 1.5em;
+    background: #fff;
+    font-size: 10pt;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*Appart en vedette*/
+.divAppartFeatured{
+    text-align: center;
+    border:5px solid #283744;
+    margin: 0 auto;
+    padding: 1.5em;
+    background: #fff;
+    font-size: 10pt;
+    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+
+/*Container*/
+.mainContainerDiv{
+    width: 50%;
+    clear: both;
+    margin: 0 auto;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+#bienvenue{
+    margin-top:1em;
+    font-size: 40px;
+    color:#ffffff;
+    text-shadow: none;
+}
+
+.container-texte-bienvenue{
+    width: 500px;
+    margin-left: 3em;
+}
+
+#accueil-description{
+    color :#ffffff;
+    font-size: 25px;
+    text-shadow: none;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.logo-small{
+    height:30px;
+    width:auto;
+    float:left;
+    padding-left: 0.5em;
+}
+
+/* NAVBAR */
+
+/* Le clearfix est appliqu� a la navBar en entier, MAIS AUSSI au ul de la navBar. Il permet que les �l�ments qui flottent � l'int�rieur (genre les liens yo !) ne d�passent pas les contours du 
+ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, on met un espace et apres*/
+.navbar-wrap{
+    position: relative; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1000px;
+}
+.navbar-pull{
+     background-color: #283744;
+     display: inline-block;
+     padding: 5px;
+}
+.nav-icon{
+     width: 30px;
+     height: 30px;
+     display: inline-block;
+     float:right;
+     padding: 0 1.5em;
+}
+.clearfix:before, /*le before veut juste dire "un style qui s'applique AVANT le clearfix*/
+.clearfix:after { /*meme principe que le before, mais apres le clearfix */
+     content: " "; 
+     display: table; 
+}
+.clearfix:after {
+     clear: both; /*empeche qu'un �l�ment flottant soit a gauche ou a droite de notre navbar et de notre ul*/
+}
+.clearfix {
+     *zoom: 1; /*une shit qui fait que notre shit va fonctionner sur shit InternetExplorer */
+}
+
+nav{
+     height: 50px; /* hauteur de notre navbar */
+     width: 100%; /* 100% de la largeur de notre page */
+     background: #fff;
+     font-size: 11pt;
+     font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
+     border-bottom: 2px solid #283744; /* Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
+}
+
+nav ul { /* le ul contient nos liens */
+     padding: 0; /* ca veut dire : pas de padding */
+     margin: 0 ; /* le "auto" met la margin horizontale automatique, ce qui fais qu'il y aura la meme largeur a gauche et a droite de nos liens */
+     width: 600px; /* la largeur maximale qu'aura le ul (la partie avec les liens), le fait de setter 600 va l'empecher de deborder ou d'etre plus large' */
+     height: 50px;
+     float:right;
+}
+
+nav li{
+    display: inline; /* force les elements (nos liens) a etre align�s horizontalement, plutot que verticalement comme le ferait normalement les li */
+    float: left; /* fais flotter les elements a gauche... jpense qu'on lsais deja �a */
+}
+
+nav a {
+     color: #000;
+     display: inline-block; /* permet de mettre des �l�ments ALIGN�S HORIZONTALEMENT et qui peuvent avoir une width, heights, ainsi qu'une marge entre chacun d'eux */
+     width: 140px;
+     text-align: center;
+     text-decoration: none;
+     line-height: 40px;
+}
+
+nav li a {
+    /* border-right: 1px solid #FF0000; */
+     padding: 0.45em 0 0.24em 0;
+     box-sizing:border-box;  /* On dis au browser que quand on met des width et des height dans shits (notre "nav li a" dans ce cas ci,) la width ou heigth de */
+     -moz-box-sizing:border-box;    /*l'�l�ment tiendra compte du compte du contenu et du contour de la boite, plutot que seulement l'int�rieur */
+     -webkit-box-sizing:border-box;
+}
+nav li:last-child a { /*le dernier lien de notre navbar n'aura pas de marge a droite, pcq ca serait cave ! */
+    border-right: 0;
+}
+
+nav a:hover, nav a:active { /*couleur que le lien aura quand on passe la souris au dessus ET aussi une fois qu'il sera activ� (cliqu�) */
+    background-color: #8c99a4;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a#logo-link{
+   width: 8.7em;
+   line-height:0;
+   float:left;
+}
+
+nav a#logo-link:hover{
+    background-color: transparent;
+}
+.navbar-pull{
+    display: none;
+    text-decoration: none;
+    color:#fff;
+}
+/* tout le style qui est est HAUT, c'est pour le style de "base", sans resizer l'ecran. Maintenant, on va adapter le style en fonction de diff�rents breakpoints, soit des grandeurs d'�cran
+plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobile*/
+
+
+/* Media queries */ 
+@media screen and (max-width: 750px) { /* s'applique quand c plus petit que 750 px de large */
+    nav { 
+        height: auto; /*on laisse le browser calculer la hauteur de la nav en fonction de son contenu (au lieu du 40 px d'avant') */
+    }
+    nav ul {
+        width: 100%; /* le ul occupera donc toute la largeur de l'�cran */
+        display: block; /* on fais une "line break, genre l'equivalent de faire enter dans word" a chaque fois qu'on met un new element dans le UL */
+        height: auto;
+        margin: 0 auto;
+        float:none;
+    }
+    nav li {
+        width: 50%; /* chaque lien aura 50% de la largeur de l'�cran */
+        float: left;
+        position: relative; /*a la hauteur normale de son parent, soit le ul, jpense que c meme pas obligatoire ca */
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        border-right: 1px solid #576979;
+    }
+    nav a { /* le nav a, c'est notre bouton "menu" pour faire derouler notre menu sur mobile */
+        text-align: left;
+        width: 100%;
+        text-indent: 25px; /* juste un esoace de 25 px a gauche du texte ben relaxe */
+    }
+    nav a#logo-link{
+        display:none;
+    }
+}
+
+@media only screen and (max-width : 480px) { /* s'applique quand c plus petit que 480 px de large */
+    nav {
+        border-bottom: 0; /* pu de barre en bas du menu :( */
+    }
+    nav ul {
+        display: none; /*on fais disparaitre nos lien */
+        height: auto;
+    }
+    .navbar-pull{
+        display: inline-block;
+        background-color: #283744;
+        width: 100%;
+        position: relative;
+    }
+    nav a#logoSmall, nav a#pull{
+        float: left;
+        width: 50%;
+    }
+    
+    nav a#logoSmall:hover, nav a#pull:hover{
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    nav li {
+        display: block; /* donc les liens seront a cette taille d'ecran la tous un en dessous de l'autre */
+        float: none; /* on les fais pu flotter */
+        width: 100%; 
+    }
+    nav li a {
+        border-bottom: 1px solid #576979;
+        border-right:0;
+    }
+}
