@@ -22,7 +22,7 @@
 
       <div class="container">
           test
-          <img src="images/nav-icon.png" class="nav-icon"/>
+         
       </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->

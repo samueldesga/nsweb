@@ -277,7 +277,7 @@ nav a {
 
 nav li a {
     /* border-right: 1px solid #FF0000; */
-     padding: 0.45em 0 0.24em 0;
+     padding: 0.45em 0 0.125em 0;
      box-sizing:border-box;  /* On dis au browser que quand on met des width et des height dans shits (notre "nav li a" dans ce cas ci,) la width ou heigth de */
      -moz-box-sizing:border-box;    /*l'�l�ment tiendra compte du compte du contenu et du contour de la boite, plutot que seulement l'int�rieur */
      -webkit-box-sizing:border-box;
@@ -293,7 +293,7 @@ nav a:hover, nav a:active { /*couleur que le lien aura quand on passe la souris 
 }
 
 nav a#logo-link{
-   width: 8.7em;
+   width: 8.5em;
    line-height:0;
    float:left;
 }
