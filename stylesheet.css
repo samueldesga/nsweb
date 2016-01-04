@@ -226,10 +226,9 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
      padding: 5px;
 }
 .nav-icon{
-     width: 30px;
      height: 30px;
-     display: inline-block;
-     float:right;
+     width: auto;
+     float: right;
      padding: 0 1.5em;
 }
 .clearfix:before, /*le before veut juste dire "un style qui s'applique AVANT le clearfix*/
