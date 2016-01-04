@@ -19,11 +19,16 @@
   </head>
 
   <body>
-
-      <div class="container">
-          test
-         
-      </div>
+    <section class="section-presentation"> 
+        <div class="container">
+            <h2>test</h2>
+        </div>
+    </section>
+    <section class="section-test"> 
+        <div class="container">
+            <h2>test</h2>
+        </div>
+    </section>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

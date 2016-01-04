@@ -1,204 +1,29 @@
 /***************************************
-                CAROUSEL
+                Index
+***************************************/
+.section-presentation{
+    background-color: grey;
+    text-align: center;
+}
+
+.section-test{
+    background-color: red;
+    text-align: center;
+}
+.presentation-wrap{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+/***************************************
+                Navbar
 ***************************************/
 
-/* CAROUSEL */
-
-.divSizeImg {
-   width:200px;
-   border-left: #fff solid 15px;
-   border-right: #fff solid 15px;
-}
-
-ul {
-    padding: 0 0 0 0;
-}
-
-.width100 {
-    width: 100%;
-}
-
-
-#carousel nav {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-    #carousel nav a {
-        width: 12px;
-        height: 12px;
-        margin-left: 15px;
-        border: 1px solid #1b1b1b;
-        border-radius: 20px;
-        background-color: #bcc665;
-        transition: background-color .4s ease-out;
-        -webkit-transition: background-color .4s ease-out;
-        -moz-transition: background-color .4s ease-out;
-    }
-
-        #carousel nav a:hover {
-            background-color: #446918;
-        }
-
-        #carousel nav a.active {
-            background-color: #446918;
-        }
-
-#carousel .inner {
-    
-    width: 920px;
-    height: 200px;
-    overflow: hidden;
-}
-
-#carousel ul {
-    width: 4560px;
-    height: 200px;
-    list-style: none;
-}
-
-    #carousel ul li {
-        position: relative;
-        float: left;
-    }
-
-        #carousel ul li div div {
-            position: absolute;
-            bottom: 30px;
-            width: 200px;
-            padding: 12px 0px 12px 0px;
-            font-size: 12px;
-            color: #fff;
-            line-height: 1em;
-            background-color: rgba(0,0,0,0.5);
-            transition: background-color .4s ease-out, color .4s ease-out;
-            -webkit-transition: background-color .4s ease-out, color .4s ease-out;
-            -moz-transition: background-color .4s ease-out, color .4s ease-out;
-        }
-
-        #carousel ul li div em {
-            color: #808080;
-        }
-
-
-
-
-
-
-
-
-
-/*Recherche Accueil*/
-
-#searchButton{
-    background: #204d74;
-    color: #fff;
-    border: #204d74;
-    border-radius: 3.5px;
-    margin: 1em auto;
-}
-
-#searchAccueil {
-    margin: 0 auto;
-    width: 100%;
-    border-spacing: 0 3em;
-}
-
-
-#searchAccueil tr{
-    
-    
-}
-
-#searchTypeTable{
-    margin: 0 auto;
-}
-
-
-
-.divSearch{
-    text-align: center;
-    border:5px solid #283744;
-    padding: 1.5em 0 1.5em 0;
-    background: #fff;
-    font-size: 10pt;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-/*Devenir membre*/
-
-.divBeMember{
-    text-align: center;
-    border:5px solid #283744;
-    padding: 1.5em 0 1.5em 0;
-    background: #fff;
-    font-size: 10pt;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-#signUpButton{
-    background: #204d74;
-    color: #fff;
-    border: #204d74;
-    border-radius: 3.5px;
-    margin: 1em auto;
-}
-
-
-/*Coloc en vedette*/
-.divColocFeatured{
-    text-align: center;
-    border:5px solid #283744;
-    margin: 0 auto;
-    padding: 1.5em;
-    background: #fff;
-    font-size: 10pt;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-/*Appart en vedette*/
-.divAppartFeatured{
-    text-align: center;
-    border:5px solid #283744;
-    margin: 0 auto;
-    padding: 1.5em;
-    background: #fff;
-    font-size: 10pt;
-    font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-
-
-/*Container*/
-.mainContainerDiv{
-    width: 50%;
-    clear: both;
-    margin: 0 auto;
-}
-
-body{
-    margin:0px;
-    padding:0px;
-    width:100%;
-}
-
-#bienvenue{
-    margin-top:1em;
-    font-size: 40px;
-    color:#ffffff;
-    text-shadow: none;
-}
-
-.container-texte-bienvenue{
-    width: 500px;
-    margin-left: 3em;
-}
-
-#accueil-description{
-    color :#ffffff;
-    font-size: 25px;
-    text-shadow: none;
-}
+/* Le clearfix est appliqu� a la navBar en entier, MAIS AUSSI au ul de la navBar. Il permet que les �l�ments qui flottent � l'int�rieur (genre les liens yo !) ne d�passent pas les contours du 
+ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, on met un espace et apres*/
 .logo{
     width: 100%;
     height: auto;
@@ -210,10 +35,6 @@ body{
     padding-left: 0.5em;
 }
 
-/* NAVBAR */
-
-/* Le clearfix est appliqu� a la navBar en entier, MAIS AUSSI au ul de la navBar. Il permet que les �l�ments qui flottent � l'int�rieur (genre les liens yo !) ne d�passent pas les contours du 
-ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, on met un espace et apres*/
 .navbar-wrap{
     position: relative; 
     margin: 0 auto; 
@@ -376,3 +197,5 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         border-right:0;
     }
 }
+
+
