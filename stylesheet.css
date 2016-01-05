@@ -3,12 +3,14 @@
 ***************************************/
 .section-presentation{
     background-color: grey;
+}
+
+.section-center{
     text-align: center;
 }
 
 .section-test{
     background-color: red;
-    text-align: center;
 }
 .presentation-wrap{
     position: relative;

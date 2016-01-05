@@ -19,17 +19,23 @@
   </head>
 
   <body>
-    <section class="section-presentation"> 
+    <section class="section-presentation section-center"> 
         <div class="container">
             <h2>Nsweb</h2>
             <p>Pour un site web à votre image</p>
         </div>
     </section>
-    <section class="section-test"> 
+      
+    <section class="section-test section-center"> 
         <div class="container">
             <h2>test</h2>
         </div>
     </section>
+     
+      
+    <div style="text-align: center; margin-top:10em;">
+        <button type="button" style="" class="btn btn-link btn-lg"><a href="ColorPreview.html" style="color:black">Clique icite pour aller voir les couleurs !</a></button>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
