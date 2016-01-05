@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="NsWeb">
 
     <title>NsWeb</title>
 
@@ -21,7 +21,8 @@
   <body>
     <section class="section-presentation"> 
         <div class="container">
-            <h2>test</h2>
+            <h2>Nsweb</h2>
+            <p>Pour un site web à votre image</p>
         </div>
     </section>
     <section class="section-test"> 
