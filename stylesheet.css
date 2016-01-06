@@ -1,8 +1,18 @@
 /***************************************
                 Index
 ***************************************/
+.presentation-wrap{
+    position: relative;
+    margin: 0 auto;
+}
 .section-presentation{
-    background-color: grey;
+    background-image: url('images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation-text{
+  width:80%;
+  height:auto;
 }
 
 .section-center{
@@ -10,12 +20,9 @@
 }
 
 .section-test{
-    background-color: red;
+    background-color: #92b06a;
 }
-.presentation-wrap{
-    position: relative;
-    margin: 0 auto;
-}
+
 
 
 

@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <?php include('navbar.html');  ?>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -19,16 +18,22 @@
   </head>
 
   <body>
-    <section class="section-presentation section-center"> 
+    <section class="section-presentation section-center">
+        <?php include('navbar.html'); ?>
+        
         <div class="container">
-            <h2>Nsweb</h2>
-            <p>Pour un site web à votre image</p>
-        </div>
+             <img src="images/header-text8.png" class="presentation-text"> 
+        </div>                                   
     </section>
       
     <section class="section-test section-center"> 
         <div class="container">
-            <h2>test</h2>
+            <h1>test</h1>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
     </section>
      
