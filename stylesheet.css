@@ -197,7 +197,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     }
     
     nav a#logoSmall:hover, nav a#pull:hover{
-        background-color: transparent;
+        border-bottom: none;
     }
 }
 
@@ -212,7 +212,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         border-right:0;
     }
     nav a:hover, nav a:active {
-        border-bottom: none;
+       
     }
 }
 
