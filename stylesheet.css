@@ -74,11 +74,11 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
 }
 
 nav{
-     height: 50px; /* hauteur de notre navbar */
+     height: 100px; /* hauteur de notre navbar */
      width: 100%; /* 100% de la largeur de notre page */
      background: transparent;
-     font-size: 11pt;
-     font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 14pt;
+     font-family : 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica, sans-serif;
      position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
     /* border-bottom: 2px solid #283744;  Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
 }
@@ -87,7 +87,7 @@ nav ul { /* le ul contient nos liens */
      padding: 0; /* ca veut dire : pas de padding */
      margin: 0 ; /* le "auto" met la margin horizontale automatique, ce qui fais qu'il y aura la meme largeur a gauche et a droite de nos liens */
      width: 600px; /* la largeur maximale qu'aura le ul (la partie avec les liens), le fait de setter 600 va l'empecher de deborder ou d'etre plus large' */
-     height: 50px;
+     height: 100px;
      float:right;
 }
 
@@ -97,12 +97,12 @@ nav li{
 }
 
 nav a {
-     color: #000;
+     color: #fff;
      display: inline-block; /* permet de mettre des �l�ments ALIGN�S HORIZONTALEMENT et qui peuvent avoir une width, heights, ainsi qu'une marge entre chacun d'eux */
-     width: 140px;
+     width: 150px;
      text-align: center;
      text-decoration: none;
-     line-height: 40px;
+     line-height: 45px;
 }
 
 nav li a {
@@ -117,7 +117,7 @@ nav li:last-child a { /*le dernier lien de notre navbar n'aura pas de marge a dr
 }
 
 nav a:hover, nav a:active { /*couleur que le lien aura quand on passe la souris au dessus ET aussi une fois qu'il sera activ� (cliqu�) */
-    background-color: transparent;
+    /*background-color: transparent;*/
     text-decoration: none;
     border-bottom: 2px solid #dd5f32;
     color: #fff;
@@ -143,7 +143,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
 
 
 /* Media queries */ 
-@media screen and (max-width: 750px) { /* s'applique quand c plus petit que 750 px de large */
+@media screen and (max-width: 780px) { /* s'applique quand c plus petit que 750 px de large */
     nav { 
         height: auto; /*on laisse le browser calculer la hauteur de la nav en fonction de son contenu (au lieu du 40 px d'avant') */
     }
@@ -159,6 +159,9 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         float: left;
         position: relative; /*a la hauteur normale de son parent, soit le ul, jpense que c meme pas obligatoire ca */
     }
+    nav a:hover, nav a:active {
+        border-bottom: 1px solid #576979;
+    }
     nav li a {
         border-bottom: 1px solid #576979;
         border-right: 1px solid #576979;
@@ -168,6 +171,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         width: 100%;
         text-indent: 25px; /* juste un esoace de 25 px a gauche du texte ben relaxe */
     }
+    
     nav a#logo-link{
         display:none;
     }
@@ -206,6 +210,9 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     nav li a {
         border-bottom: 1px solid #576979;
         border-right:0;
+    }
+    nav a:hover, nav a:active {
+        border-bottom: none;
     }
 }
 
