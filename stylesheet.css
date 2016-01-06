@@ -11,8 +11,8 @@
     background-size: cover;
 }
 .presentation-text{
-  width:80%;
-  height:auto;
+    width:80%;
+    height:auto;
 }
 
 .section-center{
@@ -76,11 +76,11 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
 nav{
      height: 50px; /* hauteur de notre navbar */
      width: 100%; /* 100% de la largeur de notre page */
-     background: #fff;
+     background: transparent;
      font-size: 11pt;
      font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
      position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
-     border-bottom: 2px solid #283744; /* Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
+    /* border-bottom: 2px solid #283744;  Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
 }
 
 nav ul { /* le ul contient nos liens */
@@ -117,8 +117,9 @@ nav li:last-child a { /*le dernier lien de notre navbar n'aura pas de marge a dr
 }
 
 nav a:hover, nav a:active { /*couleur que le lien aura quand on passe la souris au dessus ET aussi une fois qu'il sera activ� (cliqu�) */
-    background-color: #8c99a4;
+    background-color: transparent;
     text-decoration: none;
+    border-bottom: 2px solid #dd5f32;
     color: #fff;
 }
 
@@ -130,6 +131,7 @@ nav a#logo-link{
 
 nav a#logo-link:hover{
     background-color: transparent;
+    border-bottom: none;
 }
 .navbar-pull{
     display: none;
