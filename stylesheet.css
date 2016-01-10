@@ -1,9 +1,8 @@
 /***************************************
                 Index
 ***************************************/
-.presentation-wrap{
-    position: relative;
-    margin: 0 auto;
+.logo-top-margin{
+    padding-top:50px;
 }
 .section-presentation{
     background-image: url('images/header-background.jpg');
@@ -74,20 +73,24 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
 }
 
 nav{
-     height: 100px; /* hauteur de notre navbar */
+     height: 55px; /* hauteur de notre navbar */
      width: 100%; /* 100% de la largeur de notre page */
      background: transparent;
      font-size: 14pt;
      font-family : 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica, sans-serif;
      position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
-    /* border-bottom: 2px solid #283744;  Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
+     
+}
+
+.nav-fixed{
+    position: fixed;  /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
 }
 
 nav ul { /* le ul contient nos liens */
      padding: 0; /* ca veut dire : pas de padding */
      margin: 0 ; /* le "auto" met la margin horizontale automatique, ce qui fais qu'il y aura la meme largeur a gauche et a droite de nos liens */
      width: 600px; /* la largeur maximale qu'aura le ul (la partie avec les liens), le fait de setter 600 va l'empecher de deborder ou d'etre plus large' */
-     height: 100px;
+     height: 55px;
      float:right;
 }
 

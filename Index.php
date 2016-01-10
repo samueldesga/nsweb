@@ -21,7 +21,7 @@
     <section class="section-presentation section-center">
         <?php include('navbar.html'); ?>
         
-        <div class="container">
+        <div class="logo-top-margin container">
              <img src="images/header-text8.png" class="presentation-text"> 
         </div>                                   
     </section>
@@ -29,6 +29,11 @@
     <section class="section-test section-center"> 
         <div class="container">
             <h1>test</h1>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <br/>
             <br/>
