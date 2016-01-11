@@ -23,7 +23,14 @@
 }
 
 
+.black{
+    display: none;
+    background-color: black;
+}
 
+.blue{
+    background-color: blue;
+}
 
 
 /***************************************
@@ -73,7 +80,7 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
 }
 
 nav{
-     height: 55px; /* hauteur de notre navbar */
+     height: 60px; /* hauteur de notre navbar */
      width: 100%; /* 100% de la largeur de notre page */
      background: transparent;
      font-size: 14pt;
@@ -82,15 +89,19 @@ nav{
      
 }
 
-.nav-fixed{
-    position: fixed;  /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
+.nav-fixed{ /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
+    position: fixed;  
+    background-color: #adc4cc;
+    transition: background-color .4s ease-out;
+    -webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
 }
 
 nav ul { /* le ul contient nos liens */
      padding: 0; /* ca veut dire : pas de padding */
      margin: 0 ; /* le "auto" met la margin horizontale automatique, ce qui fais qu'il y aura la meme largeur a gauche et a droite de nos liens */
      width: 600px; /* la largeur maximale qu'aura le ul (la partie avec les liens), le fait de setter 600 va l'empecher de deborder ou d'etre plus large' */
-     height: 55px;
+     height: 57px;
      float:right;
 }
 
