@@ -1,3 +1,8 @@
+$(document).ready(function removeNavFixed() {
+    var header = $("#nav");
+    header.removeClass("nav-fixed");
+});
+
 $(window).scroll(function() {    
    setFixedNavbar();
 });
