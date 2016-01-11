@@ -178,7 +178,8 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         position: relative; /*a la hauteur normale de son parent, soit le ul, jpense que c meme pas obligatoire ca */
     }
     nav a:hover, nav a:active {
-        border-bottom: 1px solid #576979;
+        border-bottom:1px solid #576979;
+        background-color: #576979;
     }
     
     nav li a {
@@ -204,6 +205,16 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         display: none; /*on fais disparaitre nos lien */
         height: auto;
     }
+    
+    nav li{
+        background-color: rgba(40, 55, 68, 0.5);
+    }
+    
+    nav a:hover, nav a:active {
+        border-bottom:1px solid #576979;
+        background-color: #283744;
+    }
+    
     .navbar-pull{
         display: inline-block;
         background-color: #283744;
@@ -217,6 +228,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     
     nav a#logoSmall:hover, nav a#pull:hover{
         border-bottom: none;
+        background-color: transparent;
     }
 }
 
