@@ -6,6 +6,7 @@
 
   </head>
   <body>
+      <?php include('navbar.html'); ?>
 <div id="wrap" class="black">
     <br/>
     <br/>
