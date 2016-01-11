@@ -197,7 +197,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     }
 }
 
-@media only screen and (max-width : 480px) { /* s'applique quand c plus petit que 480 px de large */
+@media only screen and (max-width : 721px) { /* s'applique quand c plus petit que 480 px de large */
     nav {
         border-bottom: 0; /* pu de barre en bas du menu :( */
     }
@@ -207,6 +207,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     }
     
     nav li{
+        background-color: rgb(40, 55, 68); /* Pour les browser qui supportent pas le rgba */
         background-color: rgba(40, 55, 68, 0.5);
     }
     
