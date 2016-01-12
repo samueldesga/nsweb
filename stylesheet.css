@@ -21,9 +21,8 @@ li{
 /***************************************
                 Index
 ***************************************/
-.presentation-wrap{
-    position: relative;
-    margin: 0 auto;
+.logo-top-margin{
+    padding-top:50px;
 }
 .section-presentation{
     background-image: url('images/header-background.jpg');
@@ -42,6 +41,7 @@ li{
 .section-test{
     background-color: #92b06a;
 }
+
 
 
 /*********************
@@ -117,20 +117,28 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
 }
 
 nav{
-     height: 100px; /* hauteur de notre navbar */
+     height: 60px; /* hauteur de notre navbar */
      width: 100%; /* 100% de la largeur de notre page */
      background: transparent;
      font-size: 14pt;
      font-family : 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica, sans-serif;
      position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
-    /* border-bottom: 2px solid #283744;  Juste une ligne de 2 px BEN relaxe en bas de noter navbar */
+     
+}
+
+.nav-fixed{ /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
+    position: fixed;  
+    background-color: #adc4cc;
+    transition: background-color .4s ease-out;
+    -webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
 }
 
 nav ul { /* le ul contient nos liens */
      padding: 0; /* ca veut dire : pas de padding */
      margin: 0 ; /* le "auto" met la margin horizontale automatique, ce qui fais qu'il y aura la meme largeur a gauche et a droite de nos liens */
      width: 600px; /* la largeur maximale qu'aura le ul (la partie avec les liens), le fait de setter 600 va l'empecher de deborder ou d'etre plus large' */
-     height: 100px;
+     height: 57px;
      float:right;
 }
 
@@ -207,7 +215,8 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         position: relative; /*a la hauteur normale de son parent, soit le ul, jpense que c meme pas obligatoire ca */
     }
     nav a:hover, nav a:active {
-        border-bottom: 1px solid #576979;
+        border-bottom:1px solid #576979;
+        background-color: #576979;
     }
     
     nav li a {
@@ -225,7 +234,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     }
 }
 
-@media only screen and (max-width : 480px) { /* s'applique quand c plus petit que 480 px de large */
+@media only screen and (max-width : 721px) { /* s'applique quand c plus petit que 480 px de large */
     nav {
         border-bottom: 0; /* pu de barre en bas du menu :( */
     }
@@ -233,6 +242,17 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         display: none; /*on fais disparaitre nos lien */
         height: auto;
     }
+    
+    nav li{
+        background-color: rgb(40, 55, 68); /* Pour les browser qui supportent pas le rgba */
+        background-color: rgba(40, 55, 68, 0.5);
+    }
+    
+    nav a:hover, nav a:active {
+        border-bottom:1px solid #576979;
+        background-color: #283744;
+    }
+    
     .navbar-pull{
         display: inline-block;
         background-color: #283744;
@@ -246,6 +266,7 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     
     nav a#logoSmall:hover, nav a#pull:hover{
         border-bottom: none;
+        background-color: transparent;
     }
 }
 
