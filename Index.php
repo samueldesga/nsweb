@@ -21,7 +21,7 @@
     <section class="section-presentation section-center">
         <?php include('navbar.html'); ?>
         
-        <div class="container">
+        <div class="logo-top-margin container">
              <img src="images/header-text8.png" class="presentation-text"> 
         </div>                                   
     </section>
@@ -29,6 +29,11 @@
     <section class="section-test section-center"> 
         <div class="container">
             <h1>test</h1>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <br/>
             <br/>
@@ -45,6 +50,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="scripts/indexScript.js"></script>
+    
   </body>
 </html>
