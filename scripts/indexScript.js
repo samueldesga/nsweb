@@ -1,6 +1,6 @@
 $(document).ready(function removeNavFixed() {
     var header = $("#nav");
-    header.removeClass("nav-fixed");
+    header.addClass("nav-unfixed");
 });
 
 $(window).scroll(function() {    
@@ -19,13 +19,13 @@ function setFixedNavbar(){
 
     if (scroll >= 50) {
         if(mediaQuery.matches){
-            header.removeClass("clearfix").addClass("clearfix nav-fixed");
+            header.removeClass("nav-unfixed").addClass("nav-fixed");
         }
         else{
-            header.removeClass("clearfix nav-fixed").addClass("clearfix");
+            header.removeClass("nav-unfixed");
         }
     } else {
-        header.removeClass("clearfix nav-fixed").addClass("clearfix");
+        header.addClass("nav-unfixed");
     }
     
 }

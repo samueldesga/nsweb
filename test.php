@@ -6,8 +6,9 @@
 
   </head>
   <body>
-      <?php include('navbar.html'); ?>
+    
 <div id="wrap" class="black">
+      <?php include('navbar.html'); ?>
     <br/>
     <br/>
     <br/>
@@ -187,5 +188,6 @@
     <br/>
     <br/>
 </div>
+      <script src="scripts/navbarOtherPages.js"></script>
   </body>
 </html>
