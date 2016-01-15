@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     
@@ -26,11 +26,10 @@
         </div>                                   
     </section>
       
-    <section class="section-test section-center"> 
+    <section class="section-main section-center"> 
         <div class="container">
-            <h1>test</h1>
-            <br/>
-            <br/>
+            <h1>Pourquoi faire compliqué quand on peut faire simple ?</h1>
+            <p></p>
             <br/>
             <br/>
             <br/>

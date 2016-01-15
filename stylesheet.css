@@ -1,5 +1,6 @@
-body{
-    color: #333;
+html{
+    margin:0px;
+    padding:0px;
 }
 
 ul{
@@ -9,6 +10,10 @@ ul{
 
 li{
     text-decoration: none;
+}
+
+h1{
+    
 }
 
 /***************************************
@@ -38,8 +43,8 @@ li{
     text-align: center;
 }
 
-.section-test{
-    background-color: #92b06a;
+.section-main{
+    background-color: #faf6eb;
 }
 
 
@@ -123,7 +128,7 @@ nav{
      font-size: 14pt;
      font-family : 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica, sans-serif;
      position: fixed; 
-     background-color: #adc4cc;
+     background-color: rgba(40, 55, 68, 0.5);
 }
 
 .nav-unfixed{ 
