@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content mus#t come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="NsWeb">
+    <meta name="author" content="Charlevoix conception web">
 
     <title>NsWeb</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Notre css custom -->
     <link href="stylesheet.css" rel="stylesheet">
-    
+    <!-- Fonts de google -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans">
 
   </head>
 
@@ -28,19 +30,24 @@
         </div>
     </section>
       
-    <section class="section text-center color-grey"> 
-        <h2>Pourquoi travailler avec nous ?</h2>
-             
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>       
+    <section class="section si-vous-souhaitez color-beige"> 
+        <div class="container">
+            <h2 class="text-center">Si vous souhaitez...</h2>
+            
+            <div class="souhaits-wrap">
+                <div class="col-lg-4 col-md-4">
+                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <p>Avoir un service clé en main, sans cassage de tête, contenu contenu</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <p>Avoir un service de ABORDABLE et de QUALITÉ, ajout du contenu ici<p>
+                </div>
+            </div>
+            
+            <p class="text-center" style="font-size: 4em; padding-top:3em;">Nous avons la solution</p>
+        </div>
     </section>
       
     <section class="section text-center color-lime"> 

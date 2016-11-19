@@ -11,6 +11,16 @@ li{
     text-decoration: none;
 }
 
+
+a, p, li{
+    color: #0d2537;
+    font: 300 1em "Droid Sans";
+}
+
+h2{
+    font-family: "Droid Sans";
+    line-height: 1.5em;
+}
 /***************************************
             NOUS-JOINDRE
 ***************************************/
@@ -45,17 +55,41 @@ li{
     padding-bottom: 3em;
 }
 
-.color-grey{
-     background-color: #999; 
+.section-title:before{
+    margin-right: 15px;
+}
+.section-title:after{
+    margin-left: 15px;
+}
+.section-title:before, .section-title:after{
+    content: " ";
+    height: 3px;
+    width: 36px;
+    display: inline-block;
+    position: relative;
+    bottom: 0.25em;
+    background-color: #000;
+}
+
+.color-blue{
+     background-color: rgba(239,72,72, 0.7); 
 }
 
 .color-lime{
      background-color: #5cb85c;
 }
-
-.color-red{
-     background-color: #dd5f32;
+.color-beige{
+     background-color: 	rgb(247, 239, 218);
 }
+
+/***************************************
+          SECTION SI VOUS SOUHAITEZ...
+***************************************/
+.si-vous-souhaitez{}
+.si-vous-souhaitez p {font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
+.souhaits-wrap{margin: 3em 0 3em 0;}
+
+
 
 
 /*********************
