@@ -18,36 +18,64 @@
   </head>
 
   <body>
-    <section class="section-presentation section-center">
-        <?php include('navbar.html'); ?>
-        
-        <div class="logo-top-margin container">
-             <img src="images/header-text8.png" class="presentation-text"> 
-        </div>                                   
-    </section>
-      
-    <section class="section-test section-center"> 
-        <div class="container">
-            <h1>test</h1>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+    <section class="section-presentation text-center">
+        <div class="color-over">
+            <?php include('navbar.html'); ?>
+
+            <div class="logo-top-margin container">
+                <img src="images/logo-cwd-1024_2.png" class="presentation-text"> 
+            </div>
         </div>
     </section>
-     
       
-    <div style="text-align: center; margin-top:10em;">
-        <button type="button" style="" class="btn btn-link btn-lg"><a href="ColorPreview.html" style="color:black">Clique icite pour aller voir les couleurs !</a></button>
-    </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <section class="section text-center color-grey"> 
+        <h2>Pourquoi travailler avec nous ?</h2>
+             
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>       
+    </section>
+      
+    <section class="section text-center color-lime"> 
+        <h2>Quelques une de nous réalisations...</h2>
+        
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>      
+        
+        <button class="btn btn-primary btn-lg">Aller vers page nos réalisations</button>
+    </section>
+      
+    <section class="section text-center color-red"> 
+        <h2>Parlez nous de votre projet (nous contacter)</h2>
+        
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>      
+    </section>
+     
+
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="scripts/indexScript.js"></script>
