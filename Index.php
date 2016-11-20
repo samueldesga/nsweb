@@ -51,7 +51,7 @@
     </section>
       
     <section class="section text-center color-lime"> 
-        <h2>Quelques une de nous réalisations...</h2>
+        <h2>Ils ont travaillé avec nous...</h2>
         
         </br>
         </br>
@@ -64,22 +64,20 @@
         </br>
         </br>      
         
-        <button class="btn btn-primary btn-lg">Aller vers page nos réalisations</button>
+        <button class="btn btn-primary btn-lg sharp">Voir nos réalisations</button>
     </section>
       
-    <section class="section text-center color-red"> 
-        <h2>Parlez nous de votre projet (nous contacter)</h2>
-        
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>      
+    <section class="section"> 
+        <div class="container">
+            <h2 class="text-center">Contactez nous</h2>
+
+            <div style="height:300px;" class="col-lg-6 col-md-6 text-center">
+                <p>NOS FACE ICI PIS TOUTE PIS TOUTE</p>
+            </div>
+            <div style="height:300px;" class="col-lg-6 col-md-6 text-center">
+                <p>LE FORMULAIRE</p>
+            </div>
+        </div>
     </section>
      
 
