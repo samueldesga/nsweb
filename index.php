@@ -24,7 +24,7 @@
         <div class="color-over">
             <?php include('navbar.html'); ?>
 
-            <div class="logo-top-margin container">
+            <div id="big-logo" class="logo-top-margin container">
                 <img src="images/logo-cwd-1024_2.png" class="presentation-text"> 
             </div>
         </div>
