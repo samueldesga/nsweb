@@ -76,6 +76,7 @@
             </div>
             <div style="height:300px;" class="col-lg-6 col-md-6 text-center">
                 <p>LE FORMULAIRE</p>
+                <?php include('formulaireContact.php'); ?>
             </div>
         </div>
     </section>
