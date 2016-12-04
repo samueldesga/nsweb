@@ -50,32 +50,55 @@
         </div>
     </section>
       
-    <section class="section text-center color-lime"> 
-        <h2>Ils ont travaillé avec nous...</h2>
-        
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>      
-        
-        <button class="btn btn-primary btn-lg sharp">Voir nos réalisations</button>
+    <section class="section ils-ont-travailles color-lime"> 
+        <div class="container">
+            <h2 class="text-center">Ils ont travaillé avec nous...</h2>
+            <div class="entreprises-wrapper">
+                <div class="col-lg-3 text-center">
+                    <img src="images/logo_entreprise/logo-audio-guide.png" />
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/logo_entreprise/logo-maison-jocelyne-cote.png" />
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/logo_entreprise/logo-salon-toilettage-phenix.png" />
+                </div>
+                <div class="col-lg-3 text-center">
+                    <img src="images/logo_entreprise/logo-restaurant-motel-plage.png" />
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button>
+            </div>
+        </div>
     </section>
       
-    <section class="section"> 
+    <section class="section nous-contacter"> 
         <div class="container">
             <h2 class="text-center">Contactez nous</h2>
 
-            <div style="height:300px;" class="col-lg-6 col-md-6 text-center">
-                <p>NOS FACE ICI PIS TOUTE PIS TOUTE</p>
+            <div style="height:300px;" class="col-lg-6 col-md-6 contact-information">
+                <table class="face">
+                    <tr>
+                        <td><img src="images/visage/NicFace.png"/></td>
+                        <td>
+                            <span>Nicolas Girard</span>
+                            <p>Numero de telephone ?</p>
+                        </td>
+                    </tr>
+                </table>
+                <table class="face">
+                    <tr>
+                        <td><img src="images/visage/SamFace.png"/></td>
+                        <td>
+                            <span>Samuel Desgagnés</span>
+                            <p>Numero de telephone ?</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <div style="height:300px;" class="col-lg-6 col-md-6 text-center">
-                <p>LE FORMULAIRE</p>
+            <div style="height:300px;" class="col-lg-6 col-md-6 ">
+
             </div>
         </div>
     </section>
