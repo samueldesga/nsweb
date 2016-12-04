@@ -222,6 +222,9 @@ nav{
      font-size: 14pt;
      font-family : 'Whitney SSm A', 'Whitney SSm B', 'Helvetica Neue', Helvetica, sans-serif;
      position: relative; /* Position va d�marrer � la hauteur du parent de la page, soit le body */
+     transition: background-color .4s ease-out;
+    -webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
      
 }
 
