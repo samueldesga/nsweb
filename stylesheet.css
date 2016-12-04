@@ -123,8 +123,23 @@ h2{
 .si-vous-souhaitez p {font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
 .souhaits-wrap{margin: 3em 0 3em 0;}
 
+/***************************************
+          SECTION ILS ONT TRAVAILLÉS
+***************************************/
+.ils-ont-travailles{}
+.entreprises-wrapper{margin: 4em 0 4em 0; overflow: hidden;}
+.entreprises-wrapper img{width: auto; height: 100px;}
 
-
+/***************************************
+          SECTION NOUS CONTACTER
+***************************************/
+.nous-contacter{}
+.contact-information{}
+.contact-information img{width: auto; height: 100px;}
+.face{margin: 1em 0 1em 0;}
+.face tr{text-align: center;}
+.face tr td:nth-child(2) {padding-left: 2em;}
+.face tr td:nth-child(2) span{font-size: 1.25em; font-weight: 700;}
 
 /*********************
        FOOTER
