@@ -19,7 +19,7 @@ a, p, li{
 
 h2{
     font-family: "Droid Sans";
-    line-height: 1.5em;
+    font-size: 3em;
 }
 
 /***********************
@@ -65,13 +65,11 @@ h2{
 /***************************************
                 Index
 ***************************************/
-.logo-top-margin{
-    padding-top:50px;
-}
 .section-presentation{
     background: url('images/header-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 95vh;
 }
 .color-over{
     background-color: rgba(192, 192, 192, 0.5);
@@ -79,9 +77,18 @@ h2{
     height: 100%;
 }
 
-.presentation-text{
-    width:80%;
-    height:auto;
+.presentation{
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+.presentation img{
+    height: 45vh;
+    margin-bottom: 1em;
+}
+.presentation p{
+    font-size: 3em;
+    color: #fff;
 }
 
 .section{
@@ -120,8 +127,9 @@ h2{
           SECTION SI VOUS SOUHAITEZ...
 ***************************************/
 .si-vous-souhaitez{}
-.si-vous-souhaitez p {font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
-.souhaits-wrap{margin: 3em 0 3em 0;}
+.souhaits-wrap{margin: 6em 0 5em 0; overflow: hidden;}
+.souhaits-wrap p{font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
+.solution{font-size: 4em; color: rgb(250, 75, 82);}
 
 /***************************************
           SECTION ILS ONT TRAVAILLÉS
@@ -225,6 +233,7 @@ nav{
 
 .nav-fixed{ /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
     position: fixed;  
+    z-index: 1;
     background-color: #adc4cc;
     transition: background-color .4s ease-out;
     -webkit-transition: background-color .4s ease-out;
@@ -276,7 +285,7 @@ nav a:visited, nav a:link{
 }
 
 nav a#logo-link{
-   width: 8.5em;
+   width: 12em;
    line-height:0;
    float:left;
 }
