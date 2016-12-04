@@ -36,31 +36,28 @@
             <h2 class="text-center">Si vous souhaitez...</h2>
             
             <div class="souhaits-wrap">
-                <div class="col-lg-6 col-md-6">
-                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>
+                <div class="box left-box">
+                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    
-                </div>
-                <div class="row"></div>
                 
-                
-                <div class="col-lg-6 col-md-6">
-                    
+                <div class="box right-box">
+                    <div style="height: 100px; width: 100px; background-color: #000;">
+                        
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+
+                <div class="row"></div>              
+           
+                <div class="box right-box">
                     <p>Avoir un service clé en main, sans cassage de tête, contenu contenu</p>
                 </div>
+
                 <div class="row"></div>
                 
                 
-                <div class="col-lg-6 col-md-6">
+                <div class="box left-box last">
                     <p>Avoir un service de ABORDABLE et de QUALITÉ, ajout du contenu ici<p>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    
-                </div>
-                <div class="row"></div>
             </div>
             
             <p class="text-center solution">Nous avons la solution</p>

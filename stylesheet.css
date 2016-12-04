@@ -130,6 +130,24 @@ h2{
 .souhaits-wrap{margin: 6em 0 5em 0; overflow: hidden;}
 .souhaits-wrap p{font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
 .solution{font-size: 4em; color: rgb(250, 75, 82);}
+.box{
+    width:30em;
+    height: 9em;
+    display:flex;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.box.last{
+    margin-bottom: 0;
+}
+.left-box{
+    margin-left:7em;
+    float:left; 
+}
+.right-box{
+    margin-right:7em;
+    float:right; 
+}
 
 /***************************************
           SECTION ILS ONT TRAVAILLÉS
