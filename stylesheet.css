@@ -128,7 +128,7 @@ h2{
 ***************************************/
 .si-vous-souhaitez{}
 .souhaits-wrap{margin: 6em 0 5em 0; overflow: hidden;}
-.souhaits-wrap p{font-size: 2em; color: rgb(250, 75, 82); text-align: center;}
+.souhaits-wrap p{font-size: 2em; color: rgb(250, 75, 82);}
 .solution{font-size: 4em; color: rgb(250, 75, 82);}
 .box{
     width:30em;
@@ -140,13 +140,18 @@ h2{
 .box.last{
     margin-bottom: 0;
 }
+box p{
+    
+}
 .left-box{
-    margin-left:7em;
-    float:left; 
+    margin-left:5em;
+    float:left;
+    text-align: right;
 }
 .right-box{
-    margin-right:7em;
+    margin-right:5em;
     float:right; 
+    text-align: left;
 }
 
 /***************************************
@@ -155,6 +160,8 @@ h2{
 .ils-ont-travailles{}
 .entreprises-wrapper{margin: 4em 0 4em 0; overflow: hidden;}
 .entreprises-wrapper img{width: auto; height: 100px;}
+.e-box{ padding: 1em 0 1em 0; }
+.e-box.active{ border: 2px solid whitesmoke; border-radius: 5px; }
 
 /***************************************
           SECTION NOUS CONTACTER

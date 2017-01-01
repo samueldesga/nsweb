@@ -31,7 +31,7 @@
         </div>
     </section>
       
-    <section class="section si-vous-souhaitez color-beige"> 
+    <section class="section si-vous-souhaitez"> 
         <div class="container">
             <h2 class="text-center">Si vous souhaitez...</h2>
             
@@ -67,22 +67,28 @@
     <section class="section ils-ont-travailles color-lime"> 
         <div class="container">
             <h2 class="text-center">Ils ont travaillé avec nous...</h2>
-            <div class="entreprises-wrapper">
-                <div class="col-lg-3 text-center">
+            <div class="entreprises-wrapper">    
+                <div class="col-lg-3 text-center e-box" role="button" data-frameid="frame1">
                     <img src="images/logo_entreprise/logo-audio-guide.png" />
                 </div>
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 text-center e-box" role="button" data-frameid="frame2">
                     <img src="images/logo_entreprise/logo-maison-jocelyne-cote.png" />
                 </div>
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 text-center e-box" role="button" data-frameid="frame3">
                     <img src="images/logo_entreprise/logo-salon-toilettage-phenix.png" />
                 </div>
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 text-center e-box active" role="button" data-frameid="frame4">
                     <img src="images/logo_entreprise/logo-restaurant-motel-plage.png" />
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button>
+                <img id="frame1" class="hidden" src="images/frame-realisations.png"/>
+                <img id="frame2" class="hidden" src="images/frame-realisations.png" />
+                <img id="frame3" class="hidden" src="images/frame-realisations.png" />
+                <img id="frame4" src="images/realisation-motel-de-la-plage.png" />
+            </div>
+            <div class="text-center">
+             <!--   <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button> -->
             </div>
         </div>
     </section>
