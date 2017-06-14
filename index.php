@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <section class="section-presentation text-center">
+    <section id="#presentation" class="section-presentation text-center">
         <div class="color-over">
             <?php include('navbar.html'); ?>
 
@@ -31,7 +31,7 @@
         </div>
     </section>
       
-    <section class="section si-vous-souhaitez"> 
+    <section id="si-vous-souhaitez" class="section si-vous-souhaitez"> 
         <div class="container">
             <h2 class="text-center">Si vous souhaitez...</h2>
             
@@ -49,14 +49,13 @@
                 <div class="row"></div>              
            
                 <div class="box right-box">
-                    <p>Avoir un service clé en main, sans cassage de tête, contenu contenu</p>
+                    <p>Avoir un service clé en main, sans cassage de tête</p>
                 </div>
 
                 <div class="row"></div>
                 
-                
                 <div class="box left-box last">
-                    <p>Avoir un service de ABORDABLE et de QUALITÉ, ajout du contenu ici<p>
+                    <p>Avoir un service de abordable et de qualité<p>
                 </div>
             </div>
             
@@ -64,10 +63,10 @@
         </div>
     </section>
       
-    <section class="section ils-ont-travailles color-lime"> 
+    <section id="ils-ont-travailles" class="section ils-ont-travailles color-lime"> 
         <div class="container">
             <h2 class="text-center">Ils ont travaillé avec nous...</h2>
-            <div class="entreprises-wrapper">    
+            <!--<div class="entreprises-wrapper">    
                 <div class="col-lg-3 text-center e-box" role="button" data-frameid="frame1">
                     <img src="images/logo_entreprise/logo-audio-guide.png" />
                 </div>
@@ -80,45 +79,51 @@
                 <div class="col-lg-3 text-center e-box active" role="button" data-frameid="frame4">
                     <img src="images/logo_entreprise/logo-restaurant-motel-plage.png" />
                 </div>
-            </div>
-            <div class="text-center">
+            </div> -->
+            <div class="col-lg-9">
                 <img id="frame1" class="hidden" src="images/frame-realisations.png"/>
                 <img id="frame2" class="hidden" src="images/frame-realisations.png" />
                 <img id="frame3" class="hidden" src="images/frame-realisations.png" />
-                <img id="frame4" src="images/realisation-motel-de-la-plage.png" />
+                <img id="frame4" style="height:450px;" src="images/realisation-motel-de-la-plage.png" />
             </div>
-            <div class="text-center">
-             <!--   <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button> -->
+            
+            <div class="col-lg-3" role="button" data-frameid="frame1">
+                <img style="" src="images/logo_entreprise/logo-audio-guide.png" />
             </div>
+            
+           <!--<div class="text-center">
+                <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button> 
+            </div>-->
         </div>
     </section>
       
-    <section class="section nous-contacter"> 
+    <section id="nous-joindre" class="section nous-contacter"> 
         <div class="container">
             <h2 class="text-center">Contactez nous</h2>
-
-            <div class="col-lg-6 col-md-6 contact-information">
-                <table class="face">
-                    <tr>
-                        <td><img src="images/visage/NicFace.png"/></td>
-                        <td>
-                            <span>Nicolas Girard</span>
-                            <p>Numero de telephone ?</p>
-                        </td>
-                    </tr>
-                </table>
-                <table class="face">
-                    <tr>
-                        <td><img src="images/visage/SamFace.png"/></td>
-                        <td>
-                            <span>Samuel Desgagnés</span>
-                            <p>Numero de telephone ?</p>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="col-lg-6 col-md-6 text-center">
-                <?php include('formulaireContact.php'); ?>
+            <div class="contact-wrapper">
+                <div class="col-lg-6 col-md-6 contact-information">
+                    <table class="face">
+                        <tr>
+                            <td><img src="images/visage/NicFace.png"/></td>
+                            <td>
+                                <span>Nicolas Girard</span>
+                                <p>Numero de telephone ?</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="face">
+                        <tr>
+                            <td><img src="images/visage/SamFace.png"/></td>
+                            <td>
+                                <span>Samuel Desgagnés</span>
+                                <p>Numero de telephone ?</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <?php include('formulaireContact.php'); ?>
+                </div>
             </div>
         </div>
     </section>
