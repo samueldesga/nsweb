@@ -138,8 +138,7 @@ h2{
     width:30em;
     height: 9em;
     display:flex;
-    align-items: center;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 .box.last{
     margin-bottom: 0;
@@ -148,14 +147,16 @@ box p{
     
 }
 .left-box{
-    margin-left:5em;
+    padding-left:5em;
     float:left;
     text-align: right;
+    align-items: center;
 }
 .right-box{
-    margin-right:5em;
+    padding-right:5em;
     float:right; 
     text-align: left;
+    align-items: center;
 }
 
 /***************************************

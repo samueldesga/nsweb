@@ -41,13 +41,19 @@
                 </div>
                 
                 <div class="box right-box">
-                    <div style="height: 100px; width: 100px; background-color: #000;">
-                        
+                    <div class="">
+                        <img src="images/haut-parleur.png" />
                     </div>
                 </div>
 
                 <div class="row"></div>              
            
+                <div style="justify-content: flex-end;" class="box left-box">
+                    <div>
+                        <img src="images/maps-and-flags.png" />
+                    </div>    
+                </div>
+                
                 <div class="box right-box">
                     <p>Avoir un service clé en main, sans cassage de tête</p>
                 </div>
@@ -56,6 +62,12 @@
                 
                 <div class="box left-box last">
                     <p>Avoir un service de abordable et de qualité<p>
+                </div>
+                
+                <div class="box right-box">
+                    <div class="">
+                        <img src="images/invention.png" />
+                    </div>
                 </div>
             </div>
             
@@ -66,7 +78,7 @@
     <section id="ils-ont-travailles" class="section ils-ont-travailles color-lime"> 
         <div class="container">
             <h2 class="text-center">Ils ont travaillé avec nous...</h2>
-            <!--<div class="entreprises-wrapper">    
+            <div class="entreprises-wrapper">    
                 <div class="col-lg-3 text-center e-box" role="button" data-frameid="frame1">
                     <img src="images/logo_entreprise/logo-audio-guide.png" />
                 </div>
@@ -79,18 +91,14 @@
                 <div class="col-lg-3 text-center e-box active" role="button" data-frameid="frame4">
                     <img src="images/logo_entreprise/logo-restaurant-motel-plage.png" />
                 </div>
-            </div> -->
-            <div class="col-lg-9">
-                <img id="frame1" class="hidden" src="images/frame-realisations.png"/>
-                <img id="frame2" class="hidden" src="images/frame-realisations.png" />
-                <img id="frame3" class="hidden" src="images/frame-realisations.png" />
+            </div> 
+            <div class="text-center">
+                <img id="frame1" class="hidden" style="height:450px;" src="images/frame-realisations.png"/>
+                <img id="frame2" class="hidden" style="height:450px;" src="images/frame-realisations.png" />
+                <img id="frame3" class="hidden" style="height:450px;" src="images/frame-realisations.png" />
                 <img id="frame4" style="height:450px;" src="images/realisation-motel-de-la-plage.png" />
-            </div>
-            
-            <div class="col-lg-3" role="button" data-frameid="frame1">
-                <img style="" src="images/logo_entreprise/logo-audio-guide.png" />
-            </div>
-            
+            </div>            
+                        
            <!--<div class="text-center">
                 <button class="btn btn-primary btn-lg sharp text-center">Voir nos réalisations</button> 
             </div>-->
