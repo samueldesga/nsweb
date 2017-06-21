@@ -131,28 +131,34 @@ h2{
           SECTION SI VOUS SOUHAITEZ...
 ***************************************/
 .si-vous-souhaitez{}
-.souhaits-wrap{margin: 4em 0 4em 0; overflow: hidden; display: flex; flex-direction: row; justify-content: center; text-align: right;}
+.souhaits-wrap{margin: 4em 0 4em 0; overflow: hidden; display: flex; flex-direction: row; justify-content: space-around;}
 .souhaits-wrap p{font-size: 2em; color: rgb(250, 75, 82);}
 .solution{font-size: 4em; color: rgb(250, 75, 82);}
 .box{
     width:30em;
     height: 9em;
     display: flex;
-    margin-bottom: 4em;
     
 }
-.box.last{
-    margin-bottom: 0;
+.box p{
+    margin: 0 0;
+    display: flex;
+    align-self: center;
 }
+
 .left-box{
+    display: flex;
     padding-left:5em;
     float:left;
     text-align: right;
+    justify-content: flex-end;
 }
 .right-box{
+    display: flex;
     padding-right:5em;
     float:right; 
     text-align: left;
+    justify-content: flex-start;
 }
 
 /***************************************
