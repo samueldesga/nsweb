@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Charlevoix conception web">
 
-    <title>NsWeb</title>
+    <title>Conception Web Charlevoix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,37 +36,43 @@
             <h2 class="text-center">Si vous souhaitez...</h2>
             
             <div class="souhaits-wrap">
-                <div class="box left-box">
-                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
-                </div>
-                
-                <div class="box right-box">
-                    <div class="">
-                        <img src="images/haut-parleur.png" />
+                <div class="box">
+                    <div>
+                        <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
+                    </div>
+
+                    <div>
+                        <div class="">
+                            <img src="images/haut-parleur.png" />
+                        </div>
                     </div>
                 </div>
-
-                <div class="row"></div>              
+            </div>
+            <div class="souhaits-wrap">
+                <div class="box">            
            
-                <div style="justify-content: flex-end;" class="box left-box">
                     <div>
-                        <img src="images/maps-and-flags.png" />
-                    </div>    
-                </div>
-                
-                <div class="box right-box">
-                    <p>Avoir un service clé en main, sans cassage de tête</p>
-                </div>
+                        <div>
+                            <img src="images/maps-and-flags.png" />
+                        </div>    
+                    </div>
 
-                <div class="row"></div>
-                
-                <div class="box left-box last">
-                    <p>Avoir un service de abordable et de qualité<p>
+                    <div>
+                        <p>Avoir un service clé en main, sans cassage de tête</p>
+                    </div>
                 </div>
+            </div>
+            <div class="souhaits-wrap">
+                <div class="box">
                 
-                <div class="box right-box">
-                    <div class="">
-                        <img src="images/invention.png" />
+                    <div >
+                        <p>Avoir un service de abordable et de qualité<p>
+                    </div>
+
+                    <div >
+                        <div class="">
+                            <img src="images/invention.png" />
+                        </div>
                     </div>
                 </div>
             </div>
