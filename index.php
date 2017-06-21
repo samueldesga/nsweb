@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Charlevoix conception web">
 
-    <title>NsWeb</title>
+    <title>Conception Web Charlevoix</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,49 +31,51 @@
         </div>
     </section>
       
-    <section id="si-vous-souhaitez" class="si-vous-souhaitez">
-        <div class="content">
-            <div class="container">
-                <h2 class="text-center">Si vous souhaitez...</h2>
-
-                <div class="souhaits-wrap">
+    <section id="si-vous-souhaitez" class="section si-vous-souhaitez"> 
+        <div class="container">
+            <h2 class="text-center">Si vous souhaitez...</h2>
+            
+            <div class="souhaits-wrap">
+                
                     <div class="box left-box">
                         <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
                     </div>
 
                     <div class="box right-box">
-                        <div class="">
+                        
                             <img src="images/haut-parleur.png" />
-                        </div>
+                        
                     </div>
-
-                    <div class="row"></div>              
-
-                    <div style="justify-content: flex-end;" class="box left-box">
-                        <div>
+            </div>
+            <div class="souhaits-wrap">
+                      
+           
+                    <div class="box left-box">
+                        
                             <img src="images/maps-and-flags.png" />
-                        </div>    
+                        
                     </div>
 
                     <div class="box right-box">
                         <p>Avoir un service clé en main, sans cassage de tête</p>
                     </div>
-
-                    <div class="row"></div>
-
-                    <div class="box left-box last">
+            </div>
+            <div class="souhaits-wrap">
+                
+                
+                    <div class="box left-box">
                         <p>Avoir un service de abordable et de qualité<p>
                     </div>
 
                     <div class="box right-box">
-                        <div class="">
+                        
                             <img src="images/invention.png" />
-                        </div>
+                        
                     </div>
-                </div>
-
-                <p class="text-center solution">Nous avons la solution</p>
+                
             </div>
+            
+            <p class="text-center solution">Nous avons la solution</p>
         </div>
     </section>
       
