@@ -79,7 +79,7 @@
         </div>
     </section>
       
-    <section id="ils-ont-travailles" class="section ils-ont-travailles color-lime"> 
+    <section id="ils-ont-travailles" class="ils-ont-travailles color-lime"> 
         <div class="container">
             <h2 class="text-center">Ils ont travaillé avec nous...</h2>
             <div class="entreprises-wrapper">    
@@ -109,7 +109,7 @@
         </div>
     </section>
       
-    <section id="nous-joindre" class="section nous-contacter"> 
+    <section id="nous-joindre" class="nous-contacter"> 
         <div class="container">
             <h2 class="text-center">Contactez nous</h2>
             <div class="contact-wrapper">

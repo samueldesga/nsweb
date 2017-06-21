@@ -1,6 +1,27 @@
 body{
     color: #333;
+    margin: 0px;
 }
+
+section{
+  width: 100%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 90vh;
+}
+
+.content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*
+.section{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+*/
 
 ul{
     padding: 0;
@@ -93,11 +114,6 @@ h2{
 .presentation p{
     font-size: 3em;
     color: #fff;
-}
-
-.section{
-    padding-top: 3em;
-    padding-bottom: 3em;
 }
 
 .section-title:before{
@@ -270,7 +286,7 @@ nav{
 .nav-fixed{ /* FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXEEEEEEEED*/
     position: fixed;  
     z-index: 1;
-    background-color: #adc4cc;
+    background-color: rgba(34, 35, 38, 0.8);
     transition: background-color .4s ease-out;
     -webkit-transition: background-color .4s ease-out;
     -moz-transition: background-color .4s ease-out;
