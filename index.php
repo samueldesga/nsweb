@@ -31,51 +31,53 @@
         </div>
     </section>
       
-    <section id="si-vous-souhaitez" class="section si-vous-souhaitez"> 
-        <div class="container">
-            <h2 class="text-center">Si vous souhaitez...</h2>
-            
-            <div class="souhaits-wrap">
-                <div class="box left-box">
-                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
-                </div>
-                
-                <div class="box right-box">
-                    <div class="">
-                        <img src="images/haut-parleur.png" />
+    <section id="si-vous-souhaitez" class="si-vous-souhaitez">
+        <div class="content">
+            <div class="container">
+                <h2 class="text-center">Si vous souhaitez...</h2>
+
+                <div class="souhaits-wrap">
+                    <div class="box left-box">
+                        <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
+                    </div>
+
+                    <div class="box right-box">
+                        <div class="">
+                            <img src="images/haut-parleur.png" />
+                        </div>
+                    </div>
+
+                    <div class="row"></div>              
+
+                    <div style="justify-content: flex-end;" class="box left-box">
+                        <div>
+                            <img src="images/maps-and-flags.png" />
+                        </div>    
+                    </div>
+
+                    <div class="box right-box">
+                        <p>Avoir un service clé en main, sans cassage de tête</p>
+                    </div>
+
+                    <div class="row"></div>
+
+                    <div class="box left-box last">
+                        <p>Avoir un service de abordable et de qualité<p>
+                    </div>
+
+                    <div class="box right-box">
+                        <div class="">
+                            <img src="images/invention.png" />
+                        </div>
                     </div>
                 </div>
 
-                <div class="row"></div>              
-           
-                <div style="justify-content: flex-end;" class="box left-box">
-                    <div>
-                        <img src="images/maps-and-flags.png" />
-                    </div>    
-                </div>
-                
-                <div class="box right-box">
-                    <p>Avoir un service clé en main, sans cassage de tête</p>
-                </div>
-
-                <div class="row"></div>
-                
-                <div class="box left-box last">
-                    <p>Avoir un service de abordable et de qualité<p>
-                </div>
-                
-                <div class="box right-box">
-                    <div class="">
-                        <img src="images/invention.png" />
-                    </div>
-                </div>
+                <p class="text-center solution">Nous avons la solution</p>
             </div>
-            
-            <p class="text-center solution">Nous avons la solution</p>
         </div>
     </section>
       
-    <section id="ils-ont-travailles" class="section ils-ont-travailles color-lime"> 
+    <section id="ils-ont-travailles" class="ils-ont-travailles color-lime"> 
         <div class="container">
             <h2 class="text-center">Ils ont travaillé avec nous...</h2>
             <div class="entreprises-wrapper">    
@@ -105,7 +107,7 @@
         </div>
     </section>
       
-    <section id="nous-joindre" class="section nous-contacter"> 
+    <section id="nous-joindre" class="nous-contacter"> 
         <div class="container">
             <h2 class="text-center">Contactez nous</h2>
             <div class="contact-wrapper">
