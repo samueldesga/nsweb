@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <section id="#presentation" class="section-presentation text-center">
+    <section id="presentation" class="section-presentation text-center">
         <div class="color-over">
             <?php include('navbar.html'); ?>
 
@@ -135,10 +135,19 @@
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                     <?php include('formulaireContact.php'); ?>
+                    
                 </div>
             </div>
         </div>
     </section>
+      
+      
+    <div class="footerContainer">
+        
+            
+        
+    </div>
+      
      
 
     <!-- Placed at the end of the document so the pages load faster -->
