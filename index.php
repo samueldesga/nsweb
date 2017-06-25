@@ -24,7 +24,7 @@
         <div class="color-over">
             <?php include('navbar.html'); ?>
 
-            <div class="container presentation">
+            <div id="big-logo" class="container presentation">
                 <img src="images/logo-cwd-1024-sans-ecriture.png">
                 <p>Propulsez votre entreprise</p>
             </div>
