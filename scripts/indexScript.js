@@ -1,5 +1,8 @@
 $(document).ready(function() {
     removeNavFixed();
+    var bigLogo = document.getElementById("big-logo");
+    var temp = $('#presentation').height() - 60;
+    bigLogo.style.height = temp + "px";
     
     $(".e-box").on("click", function(){
         $(this).siblings().removeClass("active");
@@ -7,6 +10,7 @@ $(document).ready(function() {
 	var frameId = $(this).attr("data-frameid"); 
 	$("#"+frameId).siblings().addClass("hidden");
         $("#"+frameId).removeClass("hidden");
+        
     });
 });
 
@@ -32,15 +36,16 @@ function setFixedNavbar(){
     if (scroll >= 1) {
         if(mediaQuery.matches){
             header.removeClass("clearfix").addClass("clearfix nav-fixed");
-            bigLogo.style.padding = "110px 15px 50px 15px";
+            
+            bigLogo.style.padding = "120px 15px 0px 15px";
         }
         else{
             header.removeClass("clearfix nav-fixed").addClass("clearfix");
-            bigLogo.style.padding = "50px 15px 50px 15px";
+            bigLogo.style.padding = "0px 15px 50px 15px";
         }
     } else {
         header.removeClass("clearfix nav-fixed").addClass("clearfix");
-        bigLogo.style.padding = "50px 15px 50px 15px";
+        bigLogo.style.padding = "0px 15px 0px 15px";
     }
 }
 

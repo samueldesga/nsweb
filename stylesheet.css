@@ -94,8 +94,8 @@ h2{
 .section-presentation{
     background: url('images/header-background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 95vh;
+    
+    height: 90vh;
 }
 .color-over{
     background-color: rgba(192, 192, 192, 0.5);
@@ -104,12 +104,14 @@ h2{
 }
 
 .presentation{
-    position: relative;
-    top: 30%;
-    transform: translateY(-30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .presentation img{
-    height: 45vh;
+    width: 45vh;
+    align-self: center;
     margin-bottom: 1em;
 }
 .presentation p{
@@ -240,8 +242,8 @@ h2{
 /* Le clearfix est appliqu� a la navBar en entier, MAIS AUSSI au ul de la navBar. Il permet que les �l�ments qui flottent � l'int�rieur (genre les liens yo !) ne d�passent pas les contours du 
 ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, on met un espace et apres*/
 .logo{
-    width: 100%;
-    height: auto;
+    
+    height: 60px;
 }
 .logo-small{
     height:30px;
@@ -266,6 +268,8 @@ ul, ni du li. Donc, avant et apres que la classe du clearFix soit appliqu�e, o
      width: auto;
      float: right;
      padding: 0 1.5em;
+     align-self: center;
+     cursor: pointer;
 }
 .clearfix:before, /*le before veut juste dire "un style qui s'applique AVANT le clearfix*/
 .clearfix:after { /*meme principe que le before, mais apres le clearfix */
@@ -364,8 +368,13 @@ nav a#logo-link:hover{
 plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobile*/
 
 
+/**************************************************************************
+    DON'T TOUCH THE FIRST 780PX MEDIA QUERY OR U GONNA HAVE A BAD TIME
+**************************************************************************/
+
 /* Media queries */ 
-@media screen and (max-width: 780px) { /* s'applique quand c plus petit que 750 px de large */
+/* s'applique quand c plus petit que 750 px de large */
+@media screen and (max-width: 840px) { 
     nav { 
         height: auto; /*on laisse le browser calculer la hauteur de la nav en fonction de son contenu (au lieu du 40 px d'avant') */
     }
@@ -385,7 +394,6 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         border-bottom:1px solid #576979;
         background-color: #576979;
     }
-    
     nav li a {
         border-bottom: 1px solid #576979;
         border-right: 1px solid #576979;
@@ -395,13 +403,16 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
         width: 100%;
         text-indent: 25px; /* juste un esoace de 25 px a gauche du texte ben relaxe */
     }
-    
     nav a#logo-link{
         display:none;
     }
 }
 
-@media only screen and (max-width : 721px) { /* s'applique quand c plus petit que 480 px de large */
+/************************************
+        PLAY IN THIS ONE
+************************************/
+
+@media only screen and (max-width : 840px) { /* s'applique quand c plus petit que 480 px de large */
     nav {
         border-bottom: 0; /* pu de barre en bas du menu :( */
     }
@@ -421,10 +432,12 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     }
     
     .navbar-pull{
-        display: inline-block;
+        display: flex;
         background-color: #283744;
         width: 100%;
         position: relative;
+        justify-content: space-between;
+        align-content: center;
     }
     nav a#logoSmall, nav a#pull{
         float: left;
@@ -434,6 +447,10 @@ plus petites, pour pas que ca aille l'air d'une crotte qd on regarde ca sur mobi
     nav a#logoSmall:hover, nav a#pull:hover{
         border-bottom: none;
         background-color: transparent;
+    }
+    .logo{
+    
+        height: 50px;
     }
 }
 
