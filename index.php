@@ -36,46 +36,40 @@
             <h2 class="text-center">Si vous souhaitez...</h2>
             
             <div class="souhaits-wrap">
-                
-                    <div class="box left-box">
-                        <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
-                    </div>
+                <div class="box left-box">
+                    <p>Faire connaître votre entreprise sur le web et ressortir dans les recherches</p>    
+                </div>
 
-                    <div class="box right-box">
-                        
-                            <img src="images/haut-parleur.png" />
-                        
-                    </div>
-            </div>
-            <div class="souhaits-wrap">
-                      
-           
-                    <div class="box left-box">
-                        
-                            <img src="images/maps-and-flags.png" />
-                        
-                    </div>
-
-                    <div class="box right-box">
-                        <p>Avoir un service clé en main, sans cassage de tête</p>
-                    </div>
-            </div>
-            <div class="souhaits-wrap">
-                
-                
-                    <div class="box left-box">
-                        <p>Avoir un service de abordable et de qualité<p>
-                    </div>
-
-                    <div class="box right-box">
-                        
-                            <img src="images/invention.png" />
-                        
-                    </div>
-                
+                <div class="box right-box">
+                    <img src="images/haut-parleur.png" />
+                </div>
             </div>
             
-            <p class="text-center solution">Nous avons la solution</p>
+            <div class="souhaits-wrap">        
+                <div id="desktop-box" class="box left-box">
+                    <img src="images/maps-and-flags.png" />
+                </div>
+
+                <div class="box right-box">
+                    <p>Avoir un service clé en main, sans cassage de tête</p>
+                </div>
+                
+                <div id="mobile-box" class="box right-box hidden">
+                    <img src="images/maps-and-flags.png" />
+                </div>
+            </div>
+            
+            <div class="souhaits-wrap">
+                <div class="box left-box">
+                    <p>Avoir un service de abordable et de qualité<p>
+                </div>
+
+                <div class="box right-box"> 
+                    <img src="images/invention.png" />
+                </div>
+            </div>
+            
+            <p class="text-center solution">Nous avons la solution !</p>
         </div>
     </section>
       
