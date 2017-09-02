@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
@@ -292,11 +293,24 @@ body, html {
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: samnicweb@gmail.com</p>
       <br>
       <form method="POST" name="sentMessage" id="contactForm" novalidate>
-        <p><input value='<?php echo isset($_POST['txtName']) ? $_POST['txtName'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Nom" required name="Name"></p>
-        <p><input value='<?php echo isset($_POST['txtEmail']) ? $_POST['txtEmail'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Courriel" required name="Email"></p>
-        <p><input value='<?php echo isset($_POST['txtPhone']) ? $_POST['txtPhone'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Telephone" required name="Phone"></p>
-        <p><input value='<?php echo isset($_POST['txtMessage']) ? $_POST['txtMessage'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
         <p>
+            <input value='<?php echo isset($_POST['txtName']) ? $_POST['txtName'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Nom" required data-validation-required-message="S'il vous plait, entrez votre nom." name="Name" id='txtName'>
+            <p class="help-block text-danger"></p>
+        </p>
+        <p>
+            <input value='<?php echo isset($_POST['txtEmail']) ? $_POST['txtEmail'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Courriel"  required data-validation-required-message="S'il vous plait, entrez votre adresse courriel." name="Email" id='txtEmail'>
+            <p class="help-block text-danger"></p>
+        </p>
+        <p>
+            <input value='<?php echo isset($_POST['txtPhone']) ? $_POST['txtPhone'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Telephone" name="Phone" id='txtPhone'>
+            <p class="help-block text-danger"></p>
+        </p>
+        <p>
+            <input value='<?php echo isset($_POST['txtMessage']) ? $_POST['txtMessage'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Message" required data-validation-required-message="S'il vous plait, écrivez un message." name="Message" id='txtMessage'>
+            <p class="help-block text-danger"></p>
+        </p>
+        <p>
+          <div id="success"></div>
           <button class="w3-button w3-black" type="submit">
             <i class="fa fa-paper-plane"></i> ENVOYER MESSAGE
           </button>
@@ -375,7 +389,8 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"> </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+<script src="script/jqBootstrapValidation.js" type="text/javascript"></script>
 <script src="script/script.js" type="text/javascript"></script>
 <script src="script/contact_me.js" type="text/javascript"></script>
 

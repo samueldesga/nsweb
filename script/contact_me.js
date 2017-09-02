@@ -2,7 +2,7 @@
 
 $(function() {
 
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    $("#contactForm input").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             event.preventDefault(); // prevent default submit behaviour
@@ -25,7 +25,7 @@ $(function() {
             var name = $("input#txtName").val();
             var email = $("input#txtEmail").val();
             var phone = $("input#txtPhone").val();
-            var message = $("textarea#txtMessage").val();
+            var message = $("input#txtMessage").val();
             var time = $("input#time").val();
             $.ajax({
                 url: "././mail/contact_me.php",
