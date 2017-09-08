@@ -52,7 +52,7 @@ if(!empty($_POST['phone'])){
 $to = 'samnicweb@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Charlevoix Conception Web";
 $email_body = "Detail du courriel:\n\nNom: $name\n\nCourriel: $email\n\nTelephone: $phone\n\nMessage:\n\n$message\n";
-$headers = "De: noreply@pedneaultpelouse.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "De: noreply@charlevoixhosting.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email";   
 mail($to,$email_subject,$email_body,$headers);
 }
