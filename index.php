@@ -221,21 +221,21 @@ body, html {
       <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Téléphone: (418) 324-4700</p>
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: samnicweb@gmail.com</p>
       <br>
-      <form method="POST" name="sentMessage" id="contactForm" novalidate>
+      <form method="POST" name="sentMessage" id="contactForm">
         <p>
-            <input value='<?php echo isset($_POST['txtName']) ? $_POST['txtName'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Nom" required data-validation-required-message="S'il vous plait, entrez votre nom." name="Name" id='txtName'>
+            <input value='<?php echo isset($_POST['txtName']) ? $_POST['txtName'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Nom" required data-validation-required-message="S'il vous plait, entrez votre nom." name="Name" id="txtName">
             <p class="help-block text-danger"></p>
         </p>
         <p>
-            <input value='<?php echo isset($_POST['txtEmail']) ? $_POST['txtEmail'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Courriel"  required data-validation-required-message="S'il vous plait, entrez votre adresse courriel." name="Email" id='txtEmail'>
+            <input value='<?php echo isset($_POST['txtEmail']) ? $_POST['txtEmail'] : '' ?>' class="w3-input w3-border" type="email" placeholder="Courriel"  required data-validation-required-message="S'il vous plait, entrez votre adresse courriel." name="Email" id="txtEmail">
             <p class="help-block text-danger"></p>
         </p>
         <p>
-            <input value='<?php echo isset($_POST['txtPhone']) ? $_POST['txtPhone'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Telephone" name="Phone" id='txtPhone'>
+            <input value='<?php echo isset($_POST['txtPhone']) ? $_POST['txtPhone'] : '' ?>' class="w3-input w3-border" type="tel" placeholder="Telephone" name="Phone" id="txtPhone">
             <p class="help-block text-danger"></p>
         </p>
         <p>
-            <input value='<?php echo isset($_POST['txtMessage']) ? $_POST['txtMessage'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Message" required data-validation-required-message="S'il vous plait, écrivez un message." name="Message" id='txtMessage'>
+            <input value='<?php echo isset($_POST['txtMessage']) ? $_POST['txtMessage'] : '' ?>' class="w3-input w3-border" type="text" placeholder="Message" required data-validation-required-message="S'il vous plait, écrivez un message." name="Message" id="txtMessage">
             <p class="help-block text-danger"></p>
         </p>
         <p>
