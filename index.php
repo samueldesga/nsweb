@@ -77,8 +77,7 @@ body, html {
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Adaptabilité</p>
-      <p>Tous nos site web s'adaptent en fonction du mobile sur lequel il est affiché. Que ce soit un ordinateur, une tablette ou un téléphone
-      le résultat sera bon !</p>
+      <p>Tous nos site web s'adaptent en fonction du mobile sur lequel il est affiché. Que ce soit un ordinateur, une tablette ou un téléphone le résultat sera bon !</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
@@ -145,11 +144,11 @@ body, html {
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
 
-  <div class="w3-quarter">
+  <div class="w3-half">
     <span class="w3-xxlarge">7</span>
     <br>Projets web réalisés
   </div>
-  <div class="w3-quarter">
+  <div class="w3-half">
     <span class="w3-xxlarge">12+</span>
     <br>Clients contents
   </div>
