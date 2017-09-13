@@ -1,4 +1,3 @@
-
 <?php
 // Check for empty fields
 $minTime = 8;

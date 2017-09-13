@@ -39,8 +39,9 @@ $(function() {
                 },
                 cache: false,
                 success: function(result) {
-                        var errorMessages = result;
+                    var errorMessages = result;
                     if(!(errorMessages.length > 0)){
+                        
                         // Success message
                         $('#success').html("<div class='alert alert-success'>");
                         $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
