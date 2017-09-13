@@ -102,7 +102,7 @@ body, html {
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>Nous connaissons le web.</h3>
-      <p>Plusieurs entreprises nous ont fait confaince. Regardez ce qu'il en a donné.</p>
+      <p>Plusieurs entreprises nous ont fait confiance. Regardez le résultat.</p>
       <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>&nbsp Voir Nos Réalisations</a></p>
     </div>
     <div class="w3-col m6">
@@ -161,13 +161,24 @@ body, html {
 
   <div class="w3-row-padding" style="margin-top:64px; display: flex; justify-content: center;">
     <div class="w3-col l3 m6">
-        <img src="image/pedneault_pelouse_website_screenshot.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pedneault Pelouse">
+        <img src="image/realisations/pedneault_pelouse_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/pedneaultpelouse_compressed.png')" class="w3-hover-opacity" alt="Pedneault Pelouse">
     </div>
     <div class="w3-col l3 m6">
-        <img src="image/salon_toilettage_phenix_website_screenshot.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Salon de toilettage Le Phénix">
+        <img src="image/realisations/salon_toilettage_phenix_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/salontoilettagephenix_compressed.png')" class="w3-hover-opacity" alt="Salon de toilettage Le Phénix">
     </div>
     <div class="w3-col l3 m6">
-        <img src="image/maison_jocelyne_cote_website_screenshot.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Maison d'hébergement Jocelyne Côté">
+        <img src="image/realisations/maison_jocelyne_cote_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/maisonhebergementjocelynecote_compressed.png')" class="w3-hover-opacity" alt="Maison d'hébergement Jocelyne Côté">
+    </div>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px; display: flex; justify-content: center;">
+    <div class="w3-col l3 m6">
+        <img src="image/realisations/comptoirsushi_screenshot.png" style="width:100%" onclick="onClick('image/realisations/comptoirsushi_compressed.png')" class="w3-hover-opacity" alt="Pedneault Pelouse">
+    </div>
+    <div class="w3-col l3 m6">
+        <img src="image/realisations/audioguideisleauxcoudres_screenshot.png" style="width:100%" onclick="onClick('image/realisations/audioguideisleauxcoudres_compressed.png')" class="w3-hover-opacity" alt="Salon de toilettage Le Phénix">
+    </div>
+    <div class="w3-col l3 m6">
+        <img src="image/realisations/restaurantmoteldelaplage_screenshot.png" style="width:100%" onclick="onClick('image/realisations/restaurantmoteldelaplage_compressed.png')" class="w3-hover-opacity" alt="Maison d'hébergement Jocelyne Côté">
     </div>
   </div>
 
@@ -175,7 +186,7 @@ body, html {
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">�</span>
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">X</span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
@@ -183,14 +194,12 @@ body, html {
 </div>
 
 <!-- Skills Section -->
-<div class="w3-container w3-padding-64" style="background-color: red;">
+<div class="w3-container w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>Nos compétences.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-      tempor incididunt ut labore et dolore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-      tempor incididunt ut labore et dolore.</p>
+      <p>De la programmation web à la prise de photo, <br/>nous mettons en oeuvre plusieurs compétences 
+      pour réaliser votre projet.</p>
     </div>
     <div class="w3-col m6">
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Programmation web</p>
@@ -281,8 +290,8 @@ function myMap()
 }
 
 // Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
+function onClick(src) {
+  document.getElementById("img01").src = src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
