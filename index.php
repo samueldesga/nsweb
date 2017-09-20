@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="shortcut icon" href="image/visage/NicFace.jpg" />
+<link rel="shortcut icon" href="image/icon_conception_web_charlevoix.png" />
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
@@ -111,7 +111,7 @@ body, html {
       <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i>&nbsp Voir Nos Réalisations</a></p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="/nsweb/image/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large" src="image/phone_buildings.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Haut de page</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i onclick="location.href='https://www.facebook.com/conceptionwebcharlevoix/'" class="fa fa-facebook-official w3-hover-opacity"></i>
   </div>
 </footer>
  
