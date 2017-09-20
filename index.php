@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Charlevoix Conception Web</title>
+<title>Conception Web Charlevoix</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/w3.css" rel="stylesheet" type="text/css"/>
@@ -57,11 +57,11 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+<header class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Propulsez votre entreprise</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Propulsez votre entreprise</span><br>
-    <span class="w3-large">Laissez nous vous donner une place sur le web</span>
+    <span class="w3-large">Laissez-nous vous donner une place sur le web</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">En apprendre plus</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
@@ -71,13 +71,13 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">À PROPOS DE CHARLEVOIX CONCEPTION WEB</h3>
+  <h3 class="w3-center">À PROPOS DE CONCEPTION WEB CHARLEVOIX</h3>
   <p class="w3-center w3-large">Nos valeurs</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Adaptabilité</p>
-      <p>Tous nos site web s'adaptent en fonction du mobile sur lequel il est affiché. Que ce soit un ordinateur, une tablette ou un téléphone le résultat sera bon !</p>
+      <p>Tous nos sites web s'adaptent en fonction du mobile sur lequel ils sont affichés. Que ce soit un ordinateur, une tablette ou un téléphone le résultat sera bon !</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
@@ -114,7 +114,7 @@ body, html {
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">L'ÉQUIPE</h3>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px; display: flex; justify-content: center;">
+  <div class="w3-row-padding" style="margin-top:64px; display: flex; justify-content: center;">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card-2">
         <img src="image/visage/NicFace.jpg" alt="Nicolas Girard" style="width:100%">
@@ -132,7 +132,7 @@ body, html {
         <div class="w3-container">
           <h3>Samuel Desgagnés</h3>
           <p class="w3-opacity">Programmeur web</p>
-          <p>Patenteux de naissance, il saura trouvez une solution à n'importe lequel de vos problèmes.</p>
+          <p>Patenteux de naissance, il saura trouver une solution à tous vos problèmes.</p>
           <!--<p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
@@ -198,7 +198,7 @@ body, html {
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>Nos compétences.</h3>
-      <p>De la programmation web à la prise de photo, <br/>nous mettons en oeuvre plusieurs compétences 
+      <p>De la programmation web à la prise de photos, <br/>nous mettons en oeuvre plusieurs compétences 
       pour réaliser votre projet.</p>
     </div>
     <div class="w3-col m6">
@@ -212,7 +212,7 @@ body, html {
       </div>
       <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">50%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:65%">65%</div>
       </div>
     </div>
   </div>
@@ -222,7 +222,7 @@ body, html {
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Entrons en contact. Envoyez nous un message:</p>
+  <p class="w3-center w3-large">Entrons en contact. Envoyez-nous un message.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-half">
       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Baie-Saint-Paul, Qc</p>
@@ -249,7 +249,7 @@ body, html {
         <p>
           <div id="success"></div>
           <button class="w3-button w3-black" type="submit">
-            <i class="fa fa-paper-plane"></i> ENVOYER MESSAGE
+            <i class="fa fa-paper-plane"></i> ENVOYER LE MESSAGE
           </button>
         </p>
         <input type="hidden" id="time" name="time" value="<?php echo time(); ?>" />
