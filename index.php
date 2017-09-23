@@ -164,25 +164,25 @@ body, html {
   <h3 class="ccw-center">NOS RÉALISATIONS</h3>
   <p class="ccw-center ccw-large">Voyez le résultat par vous-même</p>
 
-  <div class="ccw-row-padding" style="margin-top:64px; display: flex; justify-content: center;">
-    <div class="ccw-col l3 m6">
+  <div class="ccw-row-padding row row-first">
+    <div class="ccw-col l3 m6 s12 element">
         <img src="image/realisations/pedneault_pelouse_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/pedneaultpelouse_compressed.png')" class="ccw-hover-opacity" alt="Pedneault Pelouse">
     </div>
-    <div class="ccw-col l3 m6">
+    <div class="ccw-col l3 m6 s12 element">
         <img src="image/realisations/salon_toilettage_phenix_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/salontoilettagephenix_compressed.png')" class="ccw-hover-opacity" alt="Salon de toilettage Le Phénix">
     </div>
-    <div class="ccw-col l3 m6">
+    <div class="ccw-col l3 m6 s12 element">
         <img src="image/realisations/maison_jocelyne_cote_website_screenshot.png" style="width:100%" onclick="onClick('image/realisations/maisonhebergementjocelynecote_compressed.png')" class="ccw-hover-opacity" alt="Maison d'hébergement Jocelyne Côté">
     </div>
   </div>
-  <div class="ccw-row-padding" style="margin-top:64px; display: flex; justify-content: center;">
-    <div class="ccw-col l3 m6">
+  <div class="ccw-row-padding row">
+    <div class="ccw-col l3 m6 s12 element">
         <img src="image/realisations/comptoirsushi_screenshot.png" style="width:100%" onclick="onClick('image/realisations/comptoirsushi_compressed.png')" class="ccw-hover-opacity" alt="Pedneault Pelouse">
     </div>
-    <div class="ccw-col l3 m6">
+    <div class="ccw-col l3 m6 s12 element">
         <img src="image/realisations/audioguideisleauxcoudres_screenshot.png" style="width:100%" onclick="onClick('image/realisations/audioguideisleauxcoudres_compressed.png')" class="ccw-hover-opacity" alt="Salon de toilettage Le Phénix">
     </div>
-    <div class="ccw-col l3 m6">
+    <div class="ccw-col l3 m6 s12">
         <img src="image/realisations/restaurantmoteldelaplage_screenshot.png" style="width:100%" onclick="onClick('image/realisations/restaurantmoteldelaplage_compressed.png')" class="ccw-hover-opacity" alt="Maison d'hébergement Jocelyne Côté">
     </div>
   </div>

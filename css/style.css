@@ -1484,3 +1484,26 @@ a {
 #nav-logo img {
     height:40px;
 }
+
+.row {
+    margin-top:64px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 601px) {
+
+    .row {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .row-first {
+        margin-top: 64px;
+    }
+
+    .element {
+        margin-bottom: 3em;
+    }
+}
