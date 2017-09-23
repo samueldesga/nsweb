@@ -35,7 +35,7 @@ function onClick(src) {
 // Toggle between showing and hiding the sidebar when clicking the menu icon
 var mySidebar = document.getElementById("mySidebar");
 
-function w3_open() {
+function ccw_open() {
     if (mySidebar.style.display === 'block') {
         mySidebar.style.display = 'none';
     } else {
@@ -44,6 +44,6 @@ function w3_open() {
 }
 
 // Close the sidebar with the close button
-function w3_close() {
+function ccw_close() {
     mySidebar.style.display = "none";
 }
