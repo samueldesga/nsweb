@@ -92,7 +92,7 @@ body, html {
     <div class="ccw-quarter">
       <i class="fa fa-diamond ccw-margin-bottom ccw-jumbo"></i>
       <p class="ccw-large">Clé en main</p>
-      <p>Un service clé en main, sans cassage de tête. Nous vous aiderons à convevoir et mener à terme votre projet.</p>
+      <p>Un service clé en main, sans cassage de tête. Nous vous aiderons à concevoir et mener à terme votre projet.</p>
     </div>
     <div class="ccw-quarter">
       <i class="fa fa-cog ccw-margin-bottom ccw-jumbo"></i>
