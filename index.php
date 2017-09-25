@@ -217,7 +217,7 @@ body, html {
       </div>
       <p class="ccw-wide"><i class="fa fa-photo ccw-margin-right"></i>Photoshop</p>
       <div class="ccw-grey">
-        <div class="ccw-container ccw-red ccw-center" style="width:65%">65%</div>
+        <div class="ccw-container ccw-red ccw-center" style="width:70%">70%</div>
       </div>
     </div>
   </div>
