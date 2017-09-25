@@ -133,7 +133,7 @@ body, html {
     </div>
     <div class="ccw-col l3 m6 ccw-margin-bottom">
       <div class="ccw-card-2">
-        <img src="image/visage/SamFace.jpg" alt="Samuel Desgagnés" style="width:100%">
+        <img src="image/visage/SamFace.png" alt="Samuel Desgagnés" style="width:100%">
         <div class="ccw-container">
           <h3>Samuel Desgagnés</h3>
           <p class="ccw-opacity">Programmeur web</p>
