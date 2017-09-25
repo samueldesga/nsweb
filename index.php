@@ -213,7 +213,7 @@ body, html {
       </div>
       <p class="ccw-wide"><i class="fa fa-camera ccw-margin-right"></i>Photographie</p>
       <div class="ccw-grey">
-        <div class="ccw-container ccw-red ccw-center" style="width:70%">70%</div>
+        <div class="ccw-container ccw-red ccw-center" style="width:75%">75%</div>
       </div>
       <p class="ccw-wide"><i class="fa fa-photo ccw-margin-right"></i>Photoshop</p>
       <div class="ccw-grey">
