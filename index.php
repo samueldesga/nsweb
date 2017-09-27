@@ -126,7 +126,7 @@ body, html {
         <div class="ccw-container">
           <h3>Nicolas Girard</h3>
           <p class="ccw-opacity">Programmeur web</p>
-          <p>Sympathique et travaillant, il saura vous guider et vous aider à réaliser votre projet.</p>
+          <p>Titulaire d'un DEC en informatique au Cégep de Sainte-Foy avec plus de 2 ans d'expérience en développement web, il saura vous guider et vous aider à réaliser votre projet.</p>
           <!--<p><button class="ccw-button ccw-light-grey ccw-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
@@ -137,7 +137,7 @@ body, html {
         <div class="ccw-container">
           <h3>Samuel Desgagnés</h3>
           <p class="ccw-opacity">Programmeur web</p>
-          <p>Grand débrouillard de naissance, il saura trouver une solution à tous vos problèmes.</p>
+          <p>Étudiant en informatique à l'Université Laval et titulaire d'un DEC en informatique au Cégep de Sainte-Foy, il saura trouver une solution à tous vos problèmes.</p>
           <!--<p><button class="ccw-button ccw-light-grey ccw-block"><i class="fa fa-envelope"></i> Contact</button></p>-->
         </div>
       </div>
